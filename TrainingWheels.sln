@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.438
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29025.244
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrainingWheelsStart", "TrainingWheelsStart\TrainingWheelsStart.csproj", "{2E0B043B-A0D7-4B6A-A2DC-E82241EECF8B}"
 EndProject
@@ -27,6 +27,8 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "00_Setup", "00_Setup\", "{D
 		DefaultWebSiteLanguage = "Visual C#"
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01 Types", "01 Types\01 Types.csproj", "{8CCFB496-A7FA-4605-BA72-ED1ED65DA819}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -41,6 +43,10 @@ Global
 		{DA2C4740-3160-4ED0-A7D1-60E3950F058D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DA2C4740-3160-4ED0-A7D1-60E3950F058D}.Release|Any CPU.ActiveCfg = Debug|Any CPU
 		{DA2C4740-3160-4ED0-A7D1-60E3950F058D}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{8CCFB496-A7FA-4605-BA72-ED1ED65DA819}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CCFB496-A7FA-4605-BA72-ED1ED65DA819}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CCFB496-A7FA-4605-BA72-ED1ED65DA819}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CCFB496-A7FA-4605-BA72-ED1ED65DA819}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
