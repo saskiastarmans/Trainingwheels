@@ -17,6 +17,20 @@ namespace _01_Types
         /// <param name="args"></param>
         static void Main(string[] args)
         {
+            Rekenen.Reken1();
+            Console.ReadKey();
+
+        }
+
+        public static void NogEenMethod()
+        {
+       
+            ClassTitle = "andere niewue waarde";
+            Console.WriteLine(ClassTitle);
+        }
+        public static void opdracht1()
+        {
+
             // op method niveau defineer je een type van het type string
             // en deze string geven wij een voorgedifineerde waarde.
             string Title = "Dit is de titel van mijn applicatie";
@@ -38,7 +52,7 @@ namespace _01_Types
             NewClass.Classinterger = 1;
             NewClass.TrueOrFalse = true;
             NewClass.Now = DateTime.Now;
-                           
+
 
             Console.WriteLine("-----------");
 
@@ -47,13 +61,13 @@ namespace _01_Types
             Console.WriteLine("-----------");
             List<NewClass> NewClass2 = new List<NewClass>();
 
-            NewClass2.Add(new NewClass { ClassTitle = "hallo",ClassTitle2 = "regel 1" , ClassTitle3 =  "regel nog iest" });
+            NewClass2.Add(new NewClass { ClassTitle = "hallo", ClassTitle2 = "regel 1", ClassTitle3 = "regel nog iest" });
             NewClass2.Add(new NewClass { ClassTitle = "hallo1", ClassTitle2 = "regel 2", ClassTitle3 = "regel nog iest sd" });
             NewClass2.Add(new NewClass { ClassTitle = "hallo2", ClassTitle2 = "regel 3", ClassTitle3 = "regel nog iest xa" });
 
             int counter = 0;
 
-            foreach(var item in NewClass2)
+            foreach (var item in NewClass2)
             {
                 counter++;
                 Console.WriteLine(counter + "-----------");
@@ -65,16 +79,6 @@ namespace _01_Types
 
 
 
-
-            Console.ReadKey();
-
-        }
-
-        public static void NogEenMethod()
-        {
-       
-            ClassTitle = "andere niewue waarde";
-            Console.WriteLine(ClassTitle);
         }
     }
 }
